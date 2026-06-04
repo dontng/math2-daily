@@ -17,7 +17,7 @@
           },
           {
             "type": "command",
-            "command": "bash /home/djology/math2-daily/scripts/auto_push.sh"
+            "command": "cd /home/djology/math2-daily && git add -A && git diff --cached --quiet || (git commit -m 'auto: session update' && git push)"
           }
         ]
       }
