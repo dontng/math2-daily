@@ -13,10 +13,6 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 /home/djology/math2-daily/scripts/auto_wish.py"
-          },
-          {
-            "type": "command",
             "command": "cd /home/djology/math2-daily && git add -A && git diff --cached --quiet || (git commit -m 'auto: session update' && git push)"
           }
         ]

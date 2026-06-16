@@ -7,6 +7,5 @@ pictures/**/*.webp
 pictures/**/*.heic
 pictures/**/*.bmp
 pictures/**/*.gif
-.auto_wish_debug.log
 __pycache__/
 *.pyc
